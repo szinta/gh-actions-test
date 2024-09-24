@@ -1,4 +1,12 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support
+    url: https://example.com/support
+    about: Get help from our support team
 templates:
   - title: Bug Report
-    description: Report a bug in the application
-    filename: bug-report.yml
+    description: Use this template to report a bug.
+    file: bug_report.yml
+  - title: Feature Request
+    description: Use this template to suggest a new feature.
+    file: feature_request.yml
