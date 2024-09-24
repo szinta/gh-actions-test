@@ -1,0 +1,14 @@
+name: Feature Request
+description: Suggest a new feature for the application.
+body:
+  - type: input
+    id: feature-name
+    attributes:
+      label: Feature name
+      placeholder: Name of the feature...
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature description
+      placeholder: Describe the feature...
