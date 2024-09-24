@@ -1,1 +1,2 @@
-Test repository to learn about github actions
+# gh-actions-test
+Repository for testing and learning GitHub Actions.
