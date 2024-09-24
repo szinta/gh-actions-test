@@ -1,23 +1,20 @@
-name: Bug report 🐛
-description: Report a bug in our website to help us improve
-title: '[Bug]: '
-labels: 'type: bug 🐛'
-
+name: Bug Report
+description: Report a bug in the application.
 body:
   - type: markdown
     attributes:
-      value: '## Welcome!'
-  - type: markdown
-    attributes:
-      value:
-        Thanks for taking the time to report report a bug in our website to help
-        us improve.
+      value: |
+        ## Bug Description
+        Please describe the bug you encountered.
 
   - type: input
-    id: system
+    id: steps-to-reproduce
     attributes:
-      label: System
-      description: 'What operating system are you using?'
-      placeholder: macOS
-    validations:
-      required: false
+      label: Steps to reproduce
+      placeholder: Step 1, Step 2, Step 3...
+
+  - type: textarea
+    id: expected-results
+    attributes:
+      label: Expected results
+      placeholder: What you expected to happen...
