@@ -1,55 +1,60 @@
-name: "Bug report"
+name: Bug report 🐛
 description: Report a bug in our website to help us improve
 title: '[Bug]: '
-labels: "type: bug"
+labels: 'type: bug 🐛'
+
 body:
   - type: markdown
     attributes:
       value: '## Welcome!'
   - type: markdown
     attributes:
-      value: >-
+      value:
         Thanks for taking the time to report report a bug in our website to help
         us improve.
+
   - type: input
     id: system
     attributes:
       label: System
-      description: What operating system are you using?
+      description: 'What operating system are you using?'
       placeholder: macOS
     validations:
       required: false
+
   - type: input
     id: browser
     attributes:
       label: Browser
-      description: What browser are you using?
+      description: 'What browser are you using?'
       placeholder: Chrome
     validations:
       required: false
+
   - type: input
     id: page
     attributes:
       label: Page
-      description: Where are you experiencing the bug?
-      placeholder: >-
-        https://pages.github.ibm.com/carbon/ibm-products/components/about-modal/usage/
+      description: 'Where are you experiencing the bug?'
+      placeholder: https://pages.github.ibm.com/carbon/ibm-products/components/about-modal/usage/
     validations:
       required: true
+
   - type: input
     id: problem
     attributes:
       label: Problem
-      description: >-
-        Tell us more about the problem that you are running into. Provide links
+      description:
+        'Tell us more about the problem that you are running into. Provide links
         or images to illustrate the problem and describe steps to reproduce the
-        problem.
+        problem.'
     validations:
       required: true
+
   - type: input
     id: application
     attributes:
       label: Application
-      description: >-
-        What application do you work on? This helps our team gather information
-        on docs usage.
+      description:
+        'What application do you work on? This helps our team gather information
+        on docs usage.'
